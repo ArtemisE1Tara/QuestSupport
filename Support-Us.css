@@ -6,9 +6,16 @@
   min-height: 500px;
 }
 
+.u-section-1 .u-custom-html-1 {
+  height: auto;
+  min-height: 93px;
+  margin-top: -22px;
+  margin-bottom: 0;
+}
+
 .u-section-1 .u-text-1 {
   font-family: "Open Sans", sans-serif;
-  margin: 123px auto 0;
+  margin: 52px auto 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -18,5 +25,36 @@
   font-size: 0.875rem;
   letter-spacing: 1px;
   background-image: none;
-  margin: 30px auto 60px;
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-custom-html-2 {
+  height: auto;
+  min-height: 93px;
+  margin-top: 123px;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-top: 75px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -44px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 127px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-custom-html-1 {
+    margin-top: 107px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -76px;
+  }
 }
