@@ -22,10 +22,15 @@
 }
 
 .u-section-1 .u-custom-html-2 {
-  height: auto;
-  min-height: 307px;
+  min-height: 407px;
   width: 506px;
-  margin: 93px auto 60px;
+  margin: 57px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-2 {
+    height: auto;
+  }
 }
 
 @media (max-width: 575px) {
