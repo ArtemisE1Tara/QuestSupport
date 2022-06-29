@@ -2,28 +2,14 @@
   min-height: 546px;
 }
 
-.u-section-1 .u-custom-html-1 {
-  height: auto;
-  min-height: 93px;
-  margin-top: -17px;
-  margin-bottom: 0;
-}
-
 .u-section-1 .u-text-1 {
   font-weight: 400;
   font-size: 1.25rem;
-  margin: 135px auto 0;
-}
-
-.u-section-1 .u-custom-html-2 {
-  margin-top: 118px;
-  margin-bottom: 60px;
-  height: auto;
-  min-height: 93px;
+  margin: 211px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
-    margin-top: 93px;
+    margin-top: 169px;
   }
 }

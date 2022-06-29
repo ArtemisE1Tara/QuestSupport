@@ -40,11 +40,6 @@
   margin: 42px auto 0;
 }
 
-.u-section-1 .u-custom-html-2 {
-  min-height: 93px;
-  margin: 0 -42px 0 42px;
-}
-
 @media (max-width: 1199px) {
   .u-section-1 .u-custom-html-1 {
     height: auto;
@@ -61,12 +56,6 @@
   .u-section-1 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
-  }
-
-  .u-section-1 .u-custom-html-2 {
-    height: auto;
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 
