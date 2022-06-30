@@ -9,7 +9,7 @@
 
 > **Updates may happen sporadically as I'm tired after working for days on it.**
 
-> [Discord](discord.gg/questsupporters)
+> [Discord](discord.gg/questsupport)
 
 - Mainly for fun stuff and chatting, but a few idiots boosted till level 3.
 
