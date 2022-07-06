@@ -1,0 +1,33 @@
+{% if true %}
+    <script>
+        
+        function imbachatWidget(params){
+            if(!window.ImbaChat){
+                return setTimeout(imbachatWidget, 50, params);
+            }
+            window.ImbaChat.load(params)
+        }
+        $.ajax({
+            url: '/index.php?route=extension/module/imbachat',
+            dataType: 'json',
+            success(data){
+                $('body').append('<script src="https://api.imbachat.com/imbachat/v1/' + data.dev_id + '/widget"/>');
+                var params = JSON.parse(data.params);
+                params['onInitSuccess'] = () =>{
+                    imbaChat.openChat() 
+                    imbaChat.addToRoom({
+                        pipe:'c100',
+                        title:'Conf 100',
+                        'is_public': 1,
+                        type:imbaChat.room_type.conference,
+                        'users_ids':[
+                            {user_id:params.user_id}
+                        ]
+                    })
+                }
+                imbachatWidget(params);
+            }
+        })
+    
+    </script>
+{% endif %}
