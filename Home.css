@@ -4,19 +4,7 @@
 
 .u-section-1 .u-text-1 {
   width: 581px;
-  margin: 157px auto 0;
-}
-
-.u-section-1 .u-custom-html-1 {
-  margin-top: 120px;
-  margin-bottom: 60px;
-  min-height: 26px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-1 .u-custom-html-1 {
-    height: auto;
-  }
+  margin: 157px auto 60px;
 }
 
 @media (max-width: 767px) {
