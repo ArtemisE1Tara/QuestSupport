@@ -7,24 +7,15 @@
   margin: 157px auto 0;
 }
 
-.u-section-1 .u-btn-1 {
-  border-style: solid;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-  margin: 71px auto 0 -50px;
-}
-
 .u-section-1 .u-custom-html-1 {
-  margin-top: 0;
+  margin-top: 120px;
   margin-bottom: 60px;
-  height: auto;
   min-height: 26px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-btn-1 {
-    margin-left: 0;
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
   }
 }
 
